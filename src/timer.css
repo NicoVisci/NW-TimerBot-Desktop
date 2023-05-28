@@ -1,0 +1,39 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1  {
+    font-size:110px;
+    position: static;
+    text-align: end;
+}
+
+body {
+    -webkit-app-region: drag;
+    background-color: transparent;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    /*color: #79fe0c;*/
+    color: #ff00ff;
+    user-select: none;
+    font-size: 22px;
+}
+
+.tip {
+    font-size: 10px;
+    text-align: center;
+}
+
+#close {
+    padding: 5px;
+    font-size: .8em;
+    color: grey;
+    -webkit-app-region: no-drag;
+}
+
+#close:hover {
+    color: #14ff62;
+}
